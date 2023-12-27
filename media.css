@@ -1,0 +1,299 @@
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 9px;
+  }
+  .about-img::before {
+    display: none;
+  }
+  .service-box-one-two,
+  .service-box-three-four {
+    float: none;
+    width: 100%;
+  }
+  .img-group .img-box {
+    width: 47.87%;
+  }
+  .img-group .img-box:nth-child(2),
+  .img-group .img-box:nth-child(4),
+  .img-group .img-box:nth-child(6) {
+    margin-right: 0;
+  }
+  .img-group {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .clear-margin-right {
+    margin-right: 3rem;
+  }
+  .clear-margin-bottom {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 923px) {
+  html {
+    font-size: 7px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-img,
+  .about-cap {
+    float: none;
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .about-cap {
+    padding-top: 1.8rem;
+  }
+
+  .about-cap h3 {
+    font-size: 3.6rem;
+  }
+
+  .about-cap p {
+    font-size: 2.4rem;
+  }
+
+  .first-three-list,
+  .second-three-list {
+    float: none;
+  }
+
+  .about-cap li {
+    padding: 1rem 1.5rem;
+  }
+
+  .about-btn:link,
+  .about-btn:visited {
+    padding: 1.3rem 3.2rem;
+    font-size: 2rem;
+  }
+
+  /*      Service      */
+
+  .service {
+    font-size: 10px;
+  }
+
+  .service-box {
+    float: none;
+    width: 100%;
+  }
+
+  .service-box p {
+    font-size: 1.8em;
+  }
+
+  .service-box h3 {
+    font-size: 2em;
+  }
+
+  .service-boxes {
+    padding-top: 7em;
+  }
+
+  .service-boxes .fa-solid {
+    font-size: 3em;
+  }
+
+  h2 {
+    font-size: 3.3em;
+  }
+
+  /* Portofolio  */
+
+  .portfolio {
+    font-size: 10px;
+  }
+
+  .portfolio-head ul {
+    padding-top: 7em;
+    padding-bottom: 5em;
+  }
+
+  .portfolio-head li {
+    font-size: 2em;
+  }
+
+  .img-group {
+    width: 100%;
+  }
+
+  .img-box {
+    width: 70% !important;
+    float: none;
+    margin: 0 auto 3rem auto !important;
+    text-align: center;
+  }
+  /*     details    */
+  .details-box {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    float: none;
+    width: 100%;
+  }
+
+  .details-box strong {
+    /* padding: 1.5rem 0; */
+    padding: 1.5rem 0 1rem 0;
+  }
+
+  /*       Feedback      */
+
+  .feedback {
+    font-size: 10px;
+  }
+
+  .feedback-content {
+    width: 50%;
+    margin-top: 7em;
+  }
+
+  .feedback-img {
+    float: none;
+    width: 70%;
+    /* background-color: blue; */
+  }
+
+  .feedback-cap {
+    margin: 0 auto;
+    float: none;
+    width: 85%;
+  }
+
+  .feedback-cap h3 {
+    font-size: 2.4em;
+  }
+
+  .feedback-cap p {
+    font-size: 1.6em;
+  }
+
+  .feedback-cap .fa-star {
+    font-size: 1.4em;
+  }
+
+  .feedback-cap a:link,
+  .feedback-cap a:visited {
+    font-size: 1.4em;
+  }
+
+  .feedback-img img {
+    width: 45%;
+  }
+
+  .feedback-content::after {
+    border-right: 15em solid #ff305b;
+    border-left: 15em solid transparent;
+    border-top: 15em solid transparent;
+  }
+
+  /*         Blog        */
+
+  .blog h2 {
+    font-size: 2.7em;
+  }
+
+  .blog-boxes {
+    margin-top: 5em;
+  }
+
+  .blog-box {
+    float: none;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+  }
+
+  .blog-boxes .last-box {
+    margin-right: auto;
+  }
+
+  .blog-box-cap p {
+    font-size: 1em;
+  }
+
+  .blog-box-cap .head:link,
+  .blog-box-cap .head:visited {
+    font-size: 1.2em;
+    padding-bottom: 1.6rem;
+  }
+
+  /*        Contact      */
+
+  form {
+    margin-top: 7em;
+  }
+
+  .contact .container {
+    width: 60%;
+  }
+
+  input,
+  textarea {
+    padding: 1.4rem 1rem;
+
+    width: 100%;
+    margin: 0;
+    margin-bottom: 3rem;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 0.6em;
+    color: #777;
+  }
+
+  .user-email {
+    float: none;
+    margin-left: 0;
+  }
+
+  .contact button {
+    font-size: 0.8em;
+  }
+}
+
+@media screen and (max-width: 488px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  html {
+    font-size: 5px;
+  }
+
+  /*    portofolio   */
+  .contact,
+  .blog,
+  .service,
+  .portfolio,
+  .feedback {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  html {
+    font-size: 4.5px;
+  }
+
+  .contact,
+  .blog,
+  .service,
+  .portfolio,
+  .feedback {
+    font-size: 5px;
+  }
+}
